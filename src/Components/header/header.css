@@ -1,0 +1,26 @@
+.header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.078);
+}
+
+.header > a {
+  text-decoration: none;
+  color: black;
+  margin-left: 4vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 768px) {
+  .header > a {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .header > a {
+    font-size: 4vw;
+  }
+}

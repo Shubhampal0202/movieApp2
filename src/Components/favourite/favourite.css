@@ -1,0 +1,34 @@
+.favourites {
+  display: flex;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 980px) {
+  .favourites {
+    flex-direction: column;
+  }
+  .favourites > .movies-table {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .favourites > .genre {
+    width: 60vw;
+    margin: 20px auto;
+    margin-top: 6px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .favourites > .movies-table {
+    width: 80vw;
+    margin: 0 auto;
+    overflow-x: scroll;
+  }
+
+  .text-input {
+  width: 47%;
+}
+.number-input {
+  width: 47%;
+}
+}

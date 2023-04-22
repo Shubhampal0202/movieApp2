@@ -1,0 +1,86 @@
+.movies-table {
+  width: 75vw;
+  margin: 0 10px;
+}
+
+.text-input {
+  padding: 10px;
+  width: 40%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.269);
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.number-input {
+  padding: 10px;
+  width: 40%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.269);
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0;
+}
+table td,
+th {
+  /* border: 1px solid rgba(0, 0, 0, 0.338); */
+  text-align: center;
+  padding: 10px;
+}
+
+td > img {
+  width: 100px;
+}
+tbody > tr {
+  border-top: 1px solid rgba(0, 0, 0, 0.342);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.285);
+}
+
+tbody > tr > td:first-child {
+  display: flex;
+  align-items: center;
+}
+
+thead > tr > th:first-child {
+  text-align: left;
+}
+
+tbody > tr > td > span {
+  margin-left: 10px;
+}
+
+.delete {
+  padding: 10px;
+  background-color: crimson;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fav-pagination {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.fav-pagination > button {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.112);
+  cursor: pointer;
+  min-width: 40px;
+  background-color: rgba(216, 194, 194, 0.151);
+}
+
+.icons{
+  cursor: pointer;
+}

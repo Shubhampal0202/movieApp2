@@ -1,0 +1,87 @@
+.movies-container > h2 {
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+.movies {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie {
+  width: 20vw;
+  height: 40vh;
+  margin: 14px;
+  position: relative;
+}
+.movieImgCont {
+  width: 100%;
+  height: 100%;
+}
+.movieImgCont > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+.movie-details > h3 {
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 8%;
+}
+.movie-details > div > button {
+  border: none;
+  padding: 10px;
+  outline: none;
+  background-color: rgba(0, 20, 243, 0.938);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10%;
+}
+.movie-details > div > button:hover {
+  background-color: blue;
+}
+#forNoImage{
+color: black;
+}
+
+.movie-details > div {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .movie {
+    width: 25vw;
+    height: 35vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .movie {
+    width: 30vw;
+    height: 35vh;
+
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .movie {
+    width: 40vw;
+    height: 35vh;
+
+  }
+}
+@media screen and (max-width: 360px) {
+  .movie {
+    width: 55vw;
+    height: 35vh;
+
+  }
+}

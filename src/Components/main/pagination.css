@@ -1,0 +1,17 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.pagination > button {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.112);
+  cursor: pointer;
+  min-width: 40px;
+  background-color: rgba(216, 194, 194, 0.151);
+}
+#selected {
+  background-color: #3B71CA;
+  color: white;
+}
